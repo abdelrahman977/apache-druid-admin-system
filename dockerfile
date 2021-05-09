@@ -15,5 +15,5 @@ RUN npm install
 # add app
 COPY . ./
 
-# start app
+# start app 
 CMD ["npm", "start"]
