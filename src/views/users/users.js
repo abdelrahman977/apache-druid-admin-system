@@ -22,6 +22,7 @@ import {
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react';
 import { getUsersAPI,addUserAPI,updateUserPasswordAPI,deleteUserAPI,getUserRolesAPI } from '../../API'; 
+import styles from './styles.css'
 
 const fields = ['name','actions']
 var toasterText = "";

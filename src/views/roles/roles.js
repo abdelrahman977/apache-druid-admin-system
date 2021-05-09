@@ -27,6 +27,7 @@ import {
 import CIcon from '@coreui/icons-react';
 import { saveAs } from 'file-saver';
 import { getUsersAPI_2,getRolesAPI,getRoleAPI,addRoleAPI,deleteRoleAPI,getRolePermissionAPI,assignRoleAPI,unassignRoleAPI,submitRolePermissionAPI } from '../../API'; 
+import styles from './styles.css'
 
 const fields = ['name','actions']
 var toasterText = "";
