@@ -1,6 +1,9 @@
 # pull official base image
 FROM node:13.12.0-alpine
 
+#Specifies the author of the image
+MAINTAINER Abdelrahman
+
 # set working directory
 WORKDIR /app
 
